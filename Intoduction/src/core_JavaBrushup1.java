@@ -1,10 +1,11 @@
+import java.util.Arrays;
 
 public class core_JavaBrushup1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int myNum = 5;
+	/*	int myNum = 5;
 		String website = "Rahul shetty Academy";
 		char letter = 'r';
 		double dec = 5.99;
@@ -44,8 +45,20 @@ public class core_JavaBrushup1 {
 		for (String s: name)
 		{
 			System.out.println(s);
-		}
+		}*/
 		
+		String Fruits[]= {"Orange", "Apple", "Bannana"};
+		String Favourite= "Apple";
+		int index;
+		for (int i=0; i<Fruits.length; i++)
+		{
+			if (Fruits[i].equals(Favourite))
+			{
+				System.out.println(index= i);
+				break;
+			}
+		}
+		//System.out.println(Arrays.asList(Fruits).indexOf(Favourite));
 		
 	}
 
