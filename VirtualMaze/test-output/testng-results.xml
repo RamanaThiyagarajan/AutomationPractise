@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-07T17:15:47 IST" name="Default suite" finished-at="2024-03-07T17:18:19 IST" duration-ms="152179">
+    <groups>
+    </groups>
+    <test started-at="2024-03-07T17:15:47 IST" name="Default test" finished-at="2024-03-07T17:18:19 IST" duration-ms="152179">
+      <class name="RegistrationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:RegistrationTest@46cdf8bd]" started-at="2024-03-07T17:15:49 IST" name="setUp" finished-at="2024-03-07T17:15:52 IST" duration-ms="2939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignUpWithValidCredentials()[pri:1, instance:RegistrationTest@46cdf8bd]" started-at="2024-03-07T17:15:52 IST" name="testSignUpWithValidCredentials" finished-at="2024-03-07T17:16:13 IST" duration-ms="21488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithValidCredentials -->
+        <test-method signature="testSignUpWithExistingUsername()[pri:2, instance:RegistrationTest@46cdf8bd]" started-at="2024-03-07T17:16:13 IST" name="testSignUpWithExistingUsername" finished-at="2024-03-07T17:16:24 IST" duration-ms="10441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithExistingUsername -->
+        <test-method signature="testSignUpWithExistingEmailId()[pri:3, instance:RegistrationTest@46cdf8bd]" started-at="2024-03-07T17:16:24 IST" name="testSignUpWithExistingEmailId" finished-at="2024-03-07T17:16:34 IST" duration-ms="10327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithExistingEmailId -->
+        <test-method signature="testSignUpWithMinimumPasswordLength()[pri:3, instance:RegistrationTest@46cdf8bd]" started-at="2024-03-07T17:16:34 IST" name="testSignUpWithMinimumPasswordLength" finished-at="2024-03-07T17:16:44 IST" duration-ms="10208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithMinimumPasswordLength -->
+        <test-method signature="testSignUpWithMismatchInPassword()[pri:3, instance:RegistrationTest@46cdf8bd]" started-at="2024-03-07T17:16:44 IST" name="testSignUpWithMismatchInPassword" finished-at="2024-03-07T17:16:54 IST" duration-ms="10171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpWithMismatchInPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RegistrationTest@46cdf8bd]" started-at="2024-03-07T17:18:18 IST" name="tearDown" finished-at="2024-03-07T17:18:19 IST" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RegistrationTest -->
+      <class name="ForgotPasswordTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ForgotPasswordTest@6d4d66d2]" started-at="2024-03-07T17:15:47 IST" name="setUp" finished-at="2024-03-07T17:15:49 IST" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testForgotPasswordIsDisplayed()[pri:1, instance:ForgotPasswordTest@6d4d66d2]" started-at="2024-03-07T17:16:54 IST" name="testForgotPasswordIsDisplayed" finished-at="2024-03-07T17:17:02 IST" duration-ms="7725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordIsDisplayed -->
+        <test-method signature="testForgotPasswordWithoutEmailID()[pri:2, instance:ForgotPasswordTest@6d4d66d2]" started-at="2024-03-07T17:17:02 IST" name="testForgotPasswordWithoutEmailID" finished-at="2024-03-07T17:17:11 IST" duration-ms="8429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordWithoutEmailID -->
+        <test-method signature="testForgotPasswordWithInvalidEmailID()[pri:3, instance:ForgotPasswordTest@6d4d66d2]" started-at="2024-03-07T17:17:11 IST" name="testForgotPasswordWithInvalidEmailID" finished-at="2024-03-07T17:17:19 IST" duration-ms="8805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordWithInvalidEmailID -->
+        <test-method signature="testForgotPasswordWithValidEmailID()[pri:4, instance:ForgotPasswordTest@6d4d66d2]" started-at="2024-03-07T17:17:19 IST" name="testForgotPasswordWithValidEmailID" finished-at="2024-03-07T17:17:28 IST" duration-ms="8782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordWithValidEmailID -->
+        <test-method signature="testForgotPasswordWithooutOtp()[pri:5, instance:ForgotPasswordTest@6d4d66d2]" started-at="2024-03-07T17:17:28 IST" name="testForgotPasswordWithooutOtp" finished-at="2024-03-07T17:17:37 IST" duration-ms="8389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordWithooutOtp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ForgotPasswordTest@6d4d66d2]" started-at="2024-03-07T17:18:17 IST" name="tearDown" finished-at="2024-03-07T17:18:18 IST" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ForgotPasswordTest -->
+      <class name="LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginTest@2e8c1c9b]" started-at="2024-03-07T17:15:45 IST" name="setUp" finished-at="2024-03-07T17:15:47 IST" duration-ms="2608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithValidCredentials()[pri:1, instance:LoginTest@2e8c1c9b]" started-at="2024-03-07T17:17:37 IST" name="testLoginWithValidCredentials" finished-at="2024-03-07T17:17:56 IST" duration-ms="19852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method signature="testLoginWithInValidCredentials()[pri:2, instance:LoginTest@2e8c1c9b]" started-at="2024-03-07T17:17:56 IST" name="testLoginWithInValidCredentials" finished-at="2024-03-07T17:18:00 IST" duration-ms="3999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInValidCredentials -->
+        <test-method signature="testLoginWithInValidUsernameAndValidPassword()[pri:3, instance:LoginTest@2e8c1c9b]" started-at="2024-03-07T17:18:00 IST" name="testLoginWithInValidUsernameAndValidPassword" finished-at="2024-03-07T17:18:05 IST" duration-ms="4993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInValidUsernameAndValidPassword -->
+        <test-method signature="testLoginWithValidUsernameAndInvalidPassword()[pri:4, instance:LoginTest@2e8c1c9b]" started-at="2024-03-07T17:18:06 IST" name="testLoginWithValidUsernameAndInvalidPassword" finished-at="2024-03-07T17:18:10 IST" duration-ms="4558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidUsernameAndInvalidPassword -->
+        <test-method signature="testLoginWithEmptyCredentials()[pri:5, instance:LoginTest@2e8c1c9b]" started-at="2024-03-07T17:18:10 IST" name="testLoginWithEmptyCredentials" finished-at="2024-03-07T17:18:17 IST" duration-ms="6520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTest@2e8c1c9b]" started-at="2024-03-07T17:18:20 IST" name="tearDown" finished-at="2024-03-07T17:18:20 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
